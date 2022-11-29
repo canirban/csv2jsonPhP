@@ -14,15 +14,26 @@ Pre-requisites have Node, php installed
 I've built the app in macOS and the installation steps are for macOS
 
 1.open a terminal in api/csvtojsonapi
+
 2.run node i
+
 3.once successful start the nodeserver by node app.js
+
 4.If successful you'll see something like this on the terminal : App listening on port 3009!
 
+
 5.open a terminal in /backend 
+
 6.run php -S localhost:8000
 
+
 7.open a terminal in /frontend/csv2json
+
 8.run npm i
+
 9.run npm run dev
+
 10.The frontend server will start in port 3000 if no other process is running.
+
 11.Visit http://localhost:3000 fill the CSV field and press submit you'll get the parsed JSON with errors if any.
+
