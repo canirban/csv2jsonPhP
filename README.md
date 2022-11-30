@@ -8,7 +8,7 @@ This repo can be divided into 3 parts
 
 /frontend - is a NextJs frontend connecting to the backend php server for getting the converted csv to json
 
-#Configuration:
+# Configuration:
 
 Pre-requisites have Node, php installed
 I've built the app in macOS and the installation steps are for macOS
