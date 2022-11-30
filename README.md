@@ -37,6 +37,11 @@ I've built the app in macOS and the installation steps are for macOS
 
 11.Visit http://localhost:3000 fill the CSV field and press submit you'll get the parsed JSON with errors if any.
 
+12. To test the node api visit http://localhost:3009/convert and make a post request with body set to x-www-form-urlencoded and use key as csv with value of the csv. see below
+
+![Screenshot 2022-11-30 at 12 56 50](https://user-images.githubusercontent.com/32904519/204802149-d4a1f871-d2d9-4882-b2a6-069c892eea48.png)
+
+
 # Summary
 
 After completing the above steps you will have something like this
