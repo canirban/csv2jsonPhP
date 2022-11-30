@@ -9,9 +9,9 @@ app.post("/convert", urlencodedParser, async (req, res) => {
     const result = await converter.parseAsString(req.body.csv);
     result
       ? res.status(200).json(result)
-      : res.status(500).json("Import failed");
+      : res.status(500).json("Internal error occured");
   } catch (e) {
-    res.status(500).json(`Import failed. Reason :${e.message}`);
+    res.status(500).json(`Internal error occured. Reason :${e.message}`);
   }
 });
 
