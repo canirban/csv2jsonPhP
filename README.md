@@ -47,3 +47,5 @@ Backend php server running on http://localhost:8000
 
 Node server running on http://localhost:3009
 
+Now head over to http://localhost:3000 fill the CSV field and press submit you'll get the parsed JSON with errors if any.
+
